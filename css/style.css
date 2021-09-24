@@ -1,0 +1,71 @@
+html body{
+    background-color:azure;
+    font-family: -apple-system,BlinkMacSystemFont,Arial,sans-serif;
+    width:85%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto; /*выравнивание текста посередите */
+    font-size: 85%;
+    
+   }
+  
+
+
+h1 {
+    color:indigo;
+    font-style:oblique;
+    font-weight: 750;
+    font-size: 32px;
+}
+h2 {
+    color:brown; 
+}
+p {
+    font-size: 16px;
+}
+p::first-letter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique ;
+    font-size : 150%;
+    color :fuchsia;
+}
+a { color:teal;
+    font-size: 16px;
+}
+a:hover {
+    font-size:16px;
+    color:tomato;
+}
+a:visited {
+    color:rebeccapurple;
+}
+.span_yellow_bg{
+    background-color: yellow;
+    font-style: italic;
+    color: blue;
+}
+.span_green_bg{
+    background-color:greenyellow;
+    font-style: italic;
+    color:blue
+
+}
+
+p {
+    text-indent: 10px; /* Отступ первой строки в пикселах */
+
+   }
+
+   figure {
+    clear: right;
+    float: right;   
+}
+
+figure>img{
+    width:100%
+}
+
+figcaption{
+    font-family: cursive;
+    font-size: 13px;
+}
